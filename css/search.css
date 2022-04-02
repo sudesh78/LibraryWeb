@@ -1,0 +1,148 @@
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: 'Josefin Sans', sans-serif;
+} 
+
+.hero{
+    background-image: url("../images/form.jpg") !important; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-grid;
+    width:100%;
+    height:100%;
+    width: calc(100% - 200px);
+    left: 200px;
+    position: relative;
+}
+
+.s-upper{
+    color: rgb(255, 255, 255);
+    background-color: rgb(241 ,52,52);
+    margin-top: 0em;
+    margin-left: 0em;
+    font-size: 1vh;
+    padding-top: 2em;
+    padding-left: 2em;
+    word-spacing: 5px;
+}
+
+.u-text{
+    margin-left: 40%;
+}
+
+.warpper{
+    width: 100%;
+    height: 100%;
+}
+.fl{
+    float: left;
+}
+.main{
+
+  display: grid;
+    background-color: rgb(255, 255, 255);
+    margin: 50px 38%;
+    border-radius: 20px 20px 30px 30px;
+}
+.head{
+    width: 100%;
+    background-color: #0bb939;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+}
+.tail{
+    width: 100%;
+    background-color: #0bb939;
+    height: 40px;
+    border-radius: 0px 0px 20px 20px;
+}
+.head p{
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 7px;
+}
+.form{
+    width: 100%;
+    height: fit-content;
+}
+.name{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+    margin: 15px 0 0 5%;
+}
+.form-control {
+    display: block;
+    width: 90%;
+    height: 44px;
+    padding: 10px 12px;
+    margin-left: 1.1em;
+    margin-right: 1em;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+.input-sm {
+    height: 40px;
+    margin-top: 0.5em;
+    padding: 6px 10px;
+    font-size: 15px;
+    line-height: 2;
+    border-radius: 3px;
+}
+.in{
+    display: flex;
+}
+.sub{
+    width: 90%;
+    margin: 20px 0 0 5%;
+    font-size: 16px;
+    height: 40px;
+    background-color: #fa0000;
+    border: 1px solid rgb(110, 168, 216);
+    color: #fff;
+}
+.sub:hover{
+    background-color: #E94601;
+    color: #fff;
+}
+.rad{
+    margin: 12px 54px;
+    display: inline-flex;
+}
+  
+
+
+
+.don_img{
+    width: 60px;
+    height: 60px;
+    padding: initial;
+}
+
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}

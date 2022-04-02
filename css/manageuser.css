@@ -1,0 +1,34 @@
+.hero {
+    background-image: url("../images/req.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    left: 200px;
+    width: calc(100% - 200px);
+    height: 110em;
+  }
+  
+  .main {
+    width: fit-content;
+    height: 38%;
+    background-color: #f92222;
+    margin: 50px 35%;
+    border-radius: 20px 20px 30px 30px;
+  }
+  
+  .s-upper {
+    color: white;
+    background-color: #f13434;
+    margin-top: 0em;
+    margin-left: 0em;
+    font-size: 1vh;
+    padding-top: 2em;
+    padding-left: 2em;
+    word-spacing: 5px;
+  }
+  
+  .u-text {
+    margin-left: 40%;
+  }
+ 
+  
